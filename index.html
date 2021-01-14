@@ -1,0 +1,100 @@
+<!--
+................................................................................
+................................................................................
+................................................................................
+................................................................................
+..:*$$$%*:.****%%%**!.*%%%%%%*!...!%%%%%%%!:..****%%%%*!.****%*....:%%%%%%%*:...
+.%S*@%@**%.*#**#@&**@.*#**S@@**&!.!@***@@**S*.!&**S@&S*&.*&**#!....:%***&$@**@!.
+.#**@!:%@!..@**$..*@*..@**$..@**@..%**#..@**$..$**@..*@*..@**@......:S**:..***S!
+.!&****&%:..@**S&&&:...@**&%$S*#!..%**S@#**@:..$**S&&#:...@**@......:***!...#**$
+.!%!%&S**&..@**@!!**!..@**#@**#:...%**#::$**#:.$**&!!**!..@**@...$$::***!..:S***
+.#*&:.%**#..&**@!!$*&..&**@.%**#!..%**#::%**S:.@**&!!$*#..@**&!*$**!:****!*#**$.
+.%&S####$:.$&#######$.%&##&$.%##&%*&###&&#&$:.%&#######$.%&#######&!@######&$!..
+....:::.........................................................................
+................................................................................
+................................................................................
+................................................................................
+-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<title>Prueba Puppis</title>
+	<meta name="author" content="Sergio Beleño">
+	<meta name="description" content="Email">
+    <meta name="keywords" content="Email, serbeld, Sergio Luis Beleño Díaz"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+	<link rel="icon" type="image/x-icon" href="imagenes/favicon.ico"/>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div>
+		<img src="imagenes/puppisbar.jpg" width="100%">
+	</div>
+
+	<!--Ops-->
+	<div class="Ops-error">
+		<img src="imagenes/puppis_popup_bienvenida_ups.png" width="100%">
+		<br><br><br><br>
+		<h4>Lo sentimos, la página que buscas no se encuentra disponible por el momento...</h4>
+	</div>
+
+	<!--Jquery-->
+	<div class="ContenedorPopUp" style="background: rgba(255, 255, 255, 0);display: flex;justify-content: center;position: fixed;top: 0px;align-items: center;left: calc(-50vw + 50%);right: calc(-50vw + 50%);margin-left: auto;margin-right: auto;z-index: 9999999;width: 100vw">
+	   <div class="PopUp">
+	      <div class="popupDialog">
+
+	         <div class="imagenPopUp">
+	            <div style="display:inline-block;">
+	            	<img src="imagenes/puppis_h.jpg" width="126px">
+	            </div>
+	         </div>
+
+	         <div class="dialogoTextoPopUp">
+	            <div class="preguntaPopUp">
+	            	¿Quieres recibir las novedades<br>de nuestra web?
+	            	<br><br>
+	            </div>
+
+	            <a class="botonPopUp">
+	            	Si, quiero suscribirme
+	            </a>
+
+	            <a class = "ahoraNoPopUp">
+	            	Ahora no
+	            </a>
+	         </div>
+	      </div>
+	   </div>
+	</div>
+
+	<div class="flex-container">
+    </div>
+
+	<form class="contenido-pagina">
+		<input type="hidden" class="sku-dog-data input-adopta">
+		<input type="submit" name="data" class="input-adopta" value="ADOPTA">
+	</form>
+
+    <footer>
+    	<img src="imagenes/bardown.jpg" width="100%">
+    </footer>
+
+    <!--Javascript-->
+
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous"> </script>
+
+    <script type="text/javascript" src="app.js"></script>
+
+</body>
+
+</html>

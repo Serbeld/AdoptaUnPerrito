@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* PopUp */
+
+.PopUp{
+	max-width: 100%; 
+	min-width: 200px; 
+	max-height: 200vh; 
+	background: white; 
+	padding:15px;
+	-webkit-box-shadow: 0px 12px 22px 5px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 12px 22px 5px rgba(0,0,0,0.4);
+	box-shadow: 0px 12px 22px 5px rgba(0,0,0,0.4);
+	display: table
+}
+
+.popupDialog{
+    max-width: 400px;
+    vertical-align: top;
+    position: relative;
+    float: left;
+    width: 100vw;
+    display: table;
+}
+
+.imagenPopUp{
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    display: table-cell;
+    margin: auto;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.dialogoTextoPopUp{
+    padding: 0px 15px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.preguntaPopUp{
+    font-size: 16px;
+    text-align: center;
+    line-height: 18px;
+    color: rgb(123, 123, 123);
+    font-weight: bold;
+    display: block;
+    vertical-align: top;
+}
+
+.botonPopUp{
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    padding: 10px 10px;
+    font-size: 13px;
+    background: rgb(15,99,156);
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.ahoraNoPopUp{
+    cursor: pointer;
+    text-align: center;
+    padding: 5px 5px;
+    display: block;
+    font-size: 13px;
+    background: transparent;
+    color: rgb(15,99,156);
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.Ops-error{
+	display: none;
+	justify-content: center;
+	padding: 40px;
+	margin: 40px;
+}
+
+
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.flex-item{
+	border: 6px inset rgb(248,194,74);
+	margin: 20px;
+	padding: 20px;
+	color: rgb(88,80,78);
+}
+
+h3{
+    font-size: 15px;;
+}
+
+b{
+	color: rgb(108,100,98);
+}
+
+.imagenperrito{
+	width: 300px;
+	flex-grow: 1;
+}
+
+.flex-item:hover{
+	border: 10px solid rgb(248,194,74);
+	margin: 15px;
+	padding: 25px;
+	box-shadow: 0px 0px 13px rgb(108,100,98);
+	transition: 1s;
+}
+
+.contenido-pagina{
+	text-align: center;
+}
+
+.input-adopta{
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    background: rgb(15,99,156);
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+    text-decoration: none;
+    margin: 20px;
+}
