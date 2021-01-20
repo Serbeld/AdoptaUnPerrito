@@ -17,9 +17,6 @@
 	max-height: 200vh; 
 	background: white; 
 	padding:15px;
-	-webkit-box-shadow: 0px 12px 22px 5px rgba(0,0,0,0.4);
-	-moz-box-shadow: 0px 12px 22px 5px rgba(0,0,0,0.4);
-	box-shadow: 0px 12px 22px 5px rgba(0,0,0,0.4);
 	display: table
 }
 
