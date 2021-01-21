@@ -157,3 +157,36 @@ b{
     text-decoration: none;
     margin: 20px;
 }
+
+@media (max-width: 400px) {
+
+    .PopUp {
+    padding: 10px;
+}
+
+    .imagenPopUp {
+    padding-bottom: 0px;
+    padding-left: 0;
+}
+
+    .dialogoTextoPopUp {
+    margin-top: 5px;
+    display: inline-block;
+}
+
+    .preguntaPopUp {
+    font-size: 3vw;
+    line-height: 3vw;
+}
+
+    .botonPopUp {
+    font-size: 2.7vw;
+    padding: 8px 8px;
+}
+    
+    .ahoraNoPopUp {
+    font-size: 2.7vw;
+    margin-top: 5px;
+}
+
+}
