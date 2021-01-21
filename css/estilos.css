@@ -23,7 +23,15 @@
     box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.4);
 }
 
+.Pantalla-gris{
+    background-color: #0009;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
 
+}
 
 .popupDialog{
     max-width: 400px;
@@ -86,10 +94,14 @@
 .Ops-error{
 	display: none;
 	justify-content: center;
-	padding: 40px;
-	margin: 40px;
+	padding: 20px;
+	margin: 20px;
+    text-align: center;
 }
 
+.imagen-ops{
+    max-width: 400px;
+}
 
 .flex-container{
 	display: flex;
@@ -105,7 +117,11 @@
 }
 
 h3{
-    font-size: 15px;;
+    font-size: 15px;
+}
+
+.lo-sentimos{
+    font-size: 2vw;
 }
 
 b{
