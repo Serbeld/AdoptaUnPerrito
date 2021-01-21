@@ -6,6 +6,7 @@ $(".botonPopUp").click(
         $(".flex-container").hide()
         $(".ContenedorPopUp").hide()
         $(".Ops-error").show()
+        $(".Pantalla-gris").hide()
     }
 )
 
@@ -13,6 +14,7 @@ $(".ahoraNoPopUp").click(
     function(){
         $(".ContenedorPopUp").hide()
         $(".Ops-error").hide()
+        $(".Pantalla-gris").hide()
     }
 )
 
