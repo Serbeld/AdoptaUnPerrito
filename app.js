@@ -50,3 +50,16 @@ for (var i = 0; i < 20; i++){
 }
 
 contenedor.appendChild(documentFragment);
+
+// Swiper
+
+var swiper = new Swiper('.swiper-container', {
+	pagination: {
+		el: '.swiper-pagination',
+		type: 'progressbar',
+      },
+      navigation: {
+      	nextEl: '.swiper-button-next',
+      	prevEl: '.swiper-button-prev',
+      },
+  });
