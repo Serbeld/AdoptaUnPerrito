@@ -4,9 +4,25 @@
     border: 0;
     vertical-align: baseline;
     font-family: 'Montserrat', sans-serif;
-    overflow-x: hidden;
     font-size: 14px;
     line-height: 1.4;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+h3{
+    font-size: 15px;
+}
+
+b{
+    color: rgb(108,100,98);
+}
+
+.lo-sentimos{
+    font-size: 2vw;
 }
 
 /* PopUp */
@@ -24,13 +40,13 @@
 }
 
 .Pantalla-gris{
-    background-color: #0c0a15db;
+    background-color: #0009;
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
-
+    z-index: 999999;
 }
 
 .popupDialog{
@@ -57,7 +73,7 @@
 }
 
 .preguntaPopUp{
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
     line-height: 18px;
     color: rgb(123, 123, 123);
@@ -116,18 +132,6 @@
 	color: rgb(88,80,78);
 }
 
-h3{
-    font-size: 15px;
-}
-
-.lo-sentimos{
-    font-size: 2vw;
-}
-
-b{
-	color: rgb(108,100,98);
-}
-
 .imagenperrito{
 	width: 300px;
 	flex-grow: 1;
@@ -158,7 +162,45 @@ b{
     margin: 20px;
 }
 
-@media (max-width: 400px) {
+/* swiper */
+
+.swiper-container {
+  width: 100%; 
+  height: 100%; 
+  overflow-x: visible;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  background-size: cover;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+    height: 28vw;
+    object-fit: cover;
+}
+
+/* Media querys */
+
+@media (max-width: 500px) {
 
     .PopUp {
     padding: 10px;
