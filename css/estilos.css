@@ -149,11 +149,6 @@ b {
     color: rgb(88, 80, 78);
 }
 
-.imagenperrito {
-    width: 300px;
-    flex-grow: 1;
-}
-
 .flex-item:hover{
     border: 10px solid rgb(247 182 37);
     margin: 12px;
