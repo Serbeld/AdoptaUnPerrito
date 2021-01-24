@@ -44,7 +44,7 @@ for (var i = 0; i < 12; i++){
 	document.querySelector(".sku-dog-data").value = numero;
 	});
 	div.tabIndex = i+1;
-	div.classList.add("flex-item", `Number:${numero}`);
+	div.classList.add("flex-item", `Number:${numero}`, `Name:${nombresp[numero]}`);
 	div.innerHTML += perrito[0] + perrito[1] + perrito[2] + perrito[3];
 	documentFragment.appendChild(div);
 }
