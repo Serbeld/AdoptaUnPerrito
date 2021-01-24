@@ -105,6 +105,7 @@ color : rgb(15, 99, 156);
 margin-top : 15px;
 text-decoration : none;
 }
+/* Error */
 .Ops-error {
 display : none;
 justify-content : center;
@@ -115,6 +116,7 @@ text-align : center;
 .imagen-ops {
 max-width : 400px;
 }
+/* Flex containe */
 .flex-container {
 display : flex;
 flex-wrap : wrap;
@@ -122,8 +124,8 @@ justify-content : center;
 }
 .flex-item {
 border : rgb(248, 194, 74) inset 6px;
-margin : 14px;
-padding : 14px;
+margin : 20px;
+padding : 20px;
 color : rgb(88, 80, 78);
 }
 .flex-item:hover {
