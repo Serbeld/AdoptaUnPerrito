@@ -23,7 +23,7 @@ $(".ahoraNoPopUp").click(
 const contenedor = document.querySelector(".flex-container");
 
 function mostrarperrito(nimagen, nombre, edad, ubicacion){
-	imagen = `<span><img class="imagenperrito"src="imagenes/Perritos/${nimagen+1}.jpg"></span>`;
+	imagen = `<span><img src="imagenes/Perritos/${nimagen+1}.jpg" width="300px"<span>`;
 	nombre = `<h3><b>Nombre:</b> ${nombre}</h3>`;
 	edad = `<h4><b>Años:</b> ${edad}</h4>`;
 	ubicacion = `<h4><b>Ubicación:</b> ${ubicacion}</h4>`;
@@ -36,7 +36,7 @@ ubicaciones = ["Chapinero", "Teusaquillo", "Kenedy", "Engativá", "Suba","Chapin
 
 let documentFragment = document.createDocumentFragment();
 
-for (var i = 0; i < 20; i++){
+for (var i = 0; i < 12; i++){
 	let numero = Math.round(Math.random()*8 + 1);
 	const perrito = mostrarperrito(numero, nombresp[numero], edadesp[numero], ubicaciones[numero]);
 	let div = document.createElement("DIV");
