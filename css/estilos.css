@@ -47,10 +47,10 @@ box-shadow : 5px 5px 5px 1px rgb(0, 0, 0, 0.4);
 .Pantalla-gris {
 background-color : #0009;
 position : fixed;
-top : 0;
-right : 0;
-left : 0;
-bottom : 0;
+top : -100px;
+right : -100px;
+left : -100px;
+bottom : -100px;
 z-index : 999999;
 }
 .popupDialog {
