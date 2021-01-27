@@ -40,7 +40,7 @@ max-height : 200vh;
 background : white;
 padding : 15px;
 display : table;
-margin : 1vw;
+margin : 0;
 margin-bottom : 40px;
 box-shadow : 5px 5px 5px 1px rgb(0, 0, 0, 0.4);
 }
