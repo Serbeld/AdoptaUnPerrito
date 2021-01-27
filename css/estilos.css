@@ -20,6 +20,12 @@ color : rgb(108, 100, 98);
 .lo-sentimos {
 font-size : 2vw;
 }
+.WebView{
+display: block;
+}
+.MobileView{
+display: none;
+}
 /* Scrollbar */
 ::-webkit-scrollbar {
 width : 20px;
@@ -173,6 +179,12 @@ object-fit : cover;
 }
 /* Media querys */
 @media (max-width: 500px) {
+.WebView{
+display: none;
+}
+.MobileView{
+display: block;
+}
 .PopUp {
 padding : 10px;
 }
