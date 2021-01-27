@@ -57,8 +57,8 @@ contenedor.appendChild(documentFragment);
 var swiper = new Swiper('.swiper-container', {
 	slidesPerView: 1,
 	loop: true,
-	speed:1800,
-	autoplay: {delay: 5000},
+	speed:1000,
+	autoplay: {delay: 3000},
 	pagination: {
 		el: '.swiper-pagination',
 		type: 'progressbar',
