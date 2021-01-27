@@ -2,20 +2,20 @@
 
 $(".botonPopUp").click(
     function(){
-        $(".contenido-pagina").hide()
-        $(".flex-container").hide()
-        $(".ContenedorPopUp").hide()
-        $(".Ops-error").show()
-        $(".Pantalla-gris").hide()
-        $(".swiper-container").hide()
+        //$(".contenido-pagina").hide()
+        //$(".flex-container").hide()
+        //$(".ContenedorPopUp").hide()
+        //$(".Ops-error").show()
+        //$(".Pantalla-gris").hide()
+        //$(".swiper-container").hide()
     }
 )
 
 $(".ahoraNoPopUp").click(
     function(){
         $(".ContenedorPopUp").hide()
-        $(".Ops-error").hide()
         $(".Pantalla-gris").hide()
+        //$(".Ops-error").hide()
     }
 )
 
