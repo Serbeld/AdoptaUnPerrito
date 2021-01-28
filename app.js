@@ -24,7 +24,7 @@ $(".ahoraNoPopUp").click(
 const contenedor = document.querySelector(".flex-container");
 
 function mostrarperrito(nimagen, nombre, edad, ubicacion){
-	imagen = `<img src="imagenes/Perritos/${nimagen+1}.jpg" width="300px">`;
+	imagen = `<img src="imagenes/Perritos/${nimagen+1}.jpg" width="100%">`;
 	nombre = `<h3><b>Nombre:</b> ${nombre}</h3>`;
 	edad = `<h4><b>Años:</b> ${edad}</h4>`;
 	ubicacion = `<h4><b>Ubicación:</b> ${ubicacion}</h4>`;
