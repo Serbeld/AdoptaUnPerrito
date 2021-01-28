@@ -130,7 +130,7 @@ justify-content : center;
 }
 .flex-item {
 border : rgb(248, 194, 74) inset 6px;
-margin : 18px;
+margin : 14px;
 padding : 18px;
 color : rgb(88, 80, 78);
 }
@@ -176,6 +176,18 @@ align-items : center;
 .swiper-slide img {
 height : 25vw;
 object-fit : cover;
+}
+/* Whatsapp */
+.whatsapp{
+	display: block; 
+	position: fixed; 
+	filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+	bottom: 1.4em; 
+	right: 1.4em; 
+	cursor: 
+	pointer; 
+	z-index: 99999999;
+	width: 50px;
 }
 /* Media querys */
 @media (max-width: 500px) {
