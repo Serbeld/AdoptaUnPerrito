@@ -1,21 +1,8 @@
 //Jquery
 
-$(".botonPopUp").click(
-    function(){
-        //$(".contenido-pagina").hide()
-        //$(".flex-container").hide()
-        //$(".ContenedorPopUp").hide()
-        //$(".Ops-error").show()
-        //$(".Pantalla-gris").hide()
-        //$(".swiper-container").hide()
-    }
-)
-
 $(".ahoraNoPopUp").click(
     function(){
         $(".ContenedorPopUp").hide()
-        $(".Pantalla-gris").hide()
-        //$(".Ops-error").hide()
     }
 )
 
