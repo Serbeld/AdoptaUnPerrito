@@ -48,7 +48,7 @@ padding : 15px;
 display : table;
 margin : 0;
 margin-bottom : 40px;
-box-shadow : 5px 5px 5px 1px rgb(0, 0, 0, 0.4);
+box-shadow : 0px 12px 22px 5px rgb(0 0 0 / 40%);
 }
 .Pantalla-gris {
 background-color : #0009;
@@ -179,15 +179,14 @@ object-fit : cover;
 }
 /* Whatsapp */
 .whatsapp{
-	display: block; 
-	position: fixed; 
-	filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
-	bottom: 1.4em; 
-	right: 1.4em; 
-	cursor: 
-	pointer; 
-	z-index: 99999999;
-	width: 50px;
+display: block; 
+position: fixed; 
+filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+bottom: 1.4em; 
+right: 1.4em; 
+cursor: pointer; 
+z-index: 99999999;
+width: 50px;
 }
 /* Media querys */
 @media (max-width: 500px) {
