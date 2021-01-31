@@ -216,6 +216,10 @@ color: #545454;
 font-weight: 600;
 text-align: center;
 }
+.box-banner img{
+min-height: 130px;
+object-fit: cover;
+}
 /* Media querys */
 @media (max-width: 500px) {
 .WebView{
