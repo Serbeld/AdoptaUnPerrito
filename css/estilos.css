@@ -122,7 +122,7 @@ text-align : center;
 .imagen-ops {
 max-width : 400px;
 }
-/* Flex containe */
+/* Flex container */
 .flex-container {
 display : flex;
 flex-wrap : wrap;
@@ -162,7 +162,6 @@ width : 100%;
 height : 100%;
 overflow-x : visible;
 margin-bottom : 10px;
-mar
 }
 .swiper-slide {
 text-align : center;
@@ -173,8 +172,11 @@ display : flex;
 justify-content : center;
 align-items : center;
 }
-.swiper-slide img {
+.hometop .swiper-slide img {
 height : 25vw;
+object-fit : cover;
+}
+.Sucursales-imagen{
 object-fit : cover;
 }
 /* Whatsapp */
@@ -188,6 +190,32 @@ cursor: pointer;
 z-index: 99999999;
 width: 50px;
 }
+/* SEO section */
+.seo-section {
+text-align: justify;
+position: relative;
+margin: 25px auto;
+width: 90%;
+display: flex;        
+line-height: 1;
+font-family: Roboto,sans-serif;
+}
+.seo-section .seo-content p {
+max-width: none;
+font-size: 100%;
+color: #767676;
+line-height: 1.2;
+text-align: justify;
+}
+.title {
+width: 100%;
+float: none;
+margin: 20px 0;
+font-size: 25px;
+color: #545454;
+font-weight: 600;
+text-align: center;
+}
 /* Media querys */
 @media (max-width: 500px) {
 .WebView{
@@ -199,7 +227,7 @@ display: none !important;
 .MobileView{
 display: block;
 }
-.swiper-slide img {
+.hometop .swiper-slide img {
 height: 50vw;
 }
 .PopUp {
@@ -224,5 +252,9 @@ padding: 8px 8px;
 .ahoraNoPopUp {
 font-size: 3.5vw;
 margin-top: 5px;
+}
+.Down-bar{
+height : 22vw;
+object-fit : cover;
 }
 }
