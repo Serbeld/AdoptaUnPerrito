@@ -86,7 +86,9 @@ line-height : 18px;
 color : rgb(123, 123, 123);
 font-weight : bold;
 display : block;
-vertical-align : top;
+vertical-align : top;    
+padding-left: 3px;
+padding-right: 3px;
 }
 .botonPopUp {
 border-radius : 25px;
@@ -110,6 +112,7 @@ background : transparent;
 color : rgb(15, 99, 156);
 margin-top : 15px;
 text-decoration : none;
+font-weight: 600;
 }
 /* Error */
 .Ops-error {
