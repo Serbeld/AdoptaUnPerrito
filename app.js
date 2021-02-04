@@ -1,6 +1,6 @@
 //Jquery
 
-$(".ahoraNoPopUp").click(
+$("#btnNoIdWpnPush").click(
     function(){
         $(".ContenedorPopUp").hide()
     }
