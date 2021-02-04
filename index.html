@@ -87,24 +87,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&amp;display=swap');
 
 </style>
-<div style="background: rgba(255, 255, 255, 0); display: flex; justify-content: center; position: fixed; top: 0; align-items: center; left: calc(-50vw + 50%); right: calc(-50vw + 50%); margin-left: auto; margin-right: auto; z-index: 9999999; width: 100vw;">
+<div style="background: rgba(255, 255, 255, 0);display: flex;justify-content: center;position: fixed;top: 0;align-items: center;left: calc(-50vw + 50%);right: calc(-50vw + 50%);margin-left: auto;margin-right: auto;z-index: 9999999;width: 100vw !important;">
 	<!--Dialog container-->
 	<div id="Wpndialogcontainer" style="min-width: 150px; background: white;box-shadow: 0px 12px 22px 5px rgba(0,0,0,0.6);display: table">
 		<div id="WpnPushdialogid" style="max-width: 420px;vertical-align:top;position:relative;float:left;width:100%;display: table;">
 			<!--White container-->
 			<div style="display: flex;align-items: center;padding: 0px;margin: 0px 8px;">
 				<div style="padding: 5px;margin: 25px 5px;">
-					<img src="https://images.notifications-icommkt.com/logos/puppis_h.jpg" width="110vw" alt="Puppis" title="Puppis" />
+					<img src="https://images.notifications-icommkt.com/logos/puppis_h.jpg" width="110px" alt="Puppis" title="Puppis">
 				</div>
-				<div style="font-size: 18px;text-align: center;font-family: 'Montserrat', sans-serif;color: rgb(25,56,111);font-weight:600;padding: 6px;">Entérate de nuestras novedades y promociones</div>
+				<div style="font-size: 18px;text-align: center;font-family: 'Montserrat', sans-serif;color: rgb(25,56,111);font-weight:bold;padding: 30px 6px;">Entérate de nuestras novedades y promociones</div>
 			</div>
+
+		</div>
 			<!--Blue container-->
-			<div style="padding: 0px;margin:0px;display:inline-block;text-align: center;background: rgb(25,56,111);width: 100%;">
+			<div style="padding: 0px;margin:0px;display: table-footer-group;text-align: center;background: rgb(25,56,111);width: 100vw;max-width: 420px;">
 				<!--Yes-->
-				<a id="btnYesIdWpnPush" href="https://www.em.puppis.com.co/show-pn-optin?tk=ds68yV3GjlEF2&id=goac-zs97dufnb-x9bcg0456ke7wqft-6340v15us2a97l-vi-0frp&clientId=5563&vpk=BAtUzGW6nZeb73ZsQJb5RJt2C9yWXbKR_dgUnBH2ZToTdUAzbIHbX3ZZihuN-uf5M35MOEOJFd2acw0AcKaYp-w" style="border-radius: 25px; cursor: pointer; text-align: center; display:block; padding: 5px 5px; margin:12px 28%; font-size: 13px; color: rgb(255, 255, 255);background: rgb(23,126,191);font-family: 'Montserrat', sans-serif;text-decoration:none;">Quiero suscribirme</a>
+				<a id="btnYesIdWpnPush" style="border-radius: 25px; cursor: pointer; text-align: center;font-weight:bold; display:block; padding: 5px 5px; margin:12px 28%; font-size: 13px; color: rgb(255, 255, 255);background: rgb(23,126,191);font-family: 'Montserrat', sans-serif;text-decoration:none;">Quiero suscribirme</a>
 				<!--No-->
-				<a id="btnNoIdWpnPush" style="cursor: pointer; text-align: center; display:block; padding:0; margin: 10px 100px; font-size: 11px; color: rgb(255, 255, 255);font-family: 'Montserrat', sans-serif;text-decoration:none;">Ahora no</a>
-			</div>
+				<a id="btnNoIdWpnPush" style="cursor: pointer; text-align: center; display:block; padding:0;font-weight:bold; margin: 10px 100px; font-size: 11px; color: rgb(255, 255, 255);font-family: 'Montserrat', sans-serif;text-decoration:none;">Ahora no</a>
 		</div>
 	</div>
 </div>
